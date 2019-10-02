@@ -1,0 +1,9 @@
+test:
+  passwordreset:
+    settings:
+      myproperty1: 10
+      myproperty2:
+        segment1: 100
+      myproperty3:
+        segment1:
+          brand1: 1000
