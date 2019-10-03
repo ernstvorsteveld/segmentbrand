@@ -26,6 +26,8 @@ public class SegmentBrandAwareSettingsTest {
         assertThat(settings.getMyProperty3("segment1", "brand1")).isEqualTo(1000);
         assertThat(settings.getMyProperty4("segment1", null)).isNull();
         assertThat(settings.getMyProperty4("segment1", "brand1")).isNull();
+
+        assertThat(settings.getMypropertys1(null, null)).isEqualTo("a string value");
     }
 
 }

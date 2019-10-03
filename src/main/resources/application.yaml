@@ -7,3 +7,4 @@ test:
       myproperty3:
         segment1:
           brand1: 1000
+      mypropertys1: a string value
